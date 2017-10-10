@@ -12,7 +12,7 @@ public class InMemoryUserRepo implements UserRepository {
 
     @Override
     public void save(User user) {
-      //  users.put(user.getUuid(), user);
+        users.put(user.getUuid(), user);
     }
 
     @Override

@@ -4,7 +4,7 @@ import spock.lang.Specification
 
 class UserRepositoryTest extends Specification {
 
-    UserRepository userRepository = new InMemoryUserRepo();
+    UserRepository userRepository = new EventSourcedUserRepository();
 
     def 'should be able to save and load user' () {
         given:
