@@ -1,2 +1,1 @@
-# Shop1
-Event Driven Spring Cloud
+# Event Driven Spring Cloud
